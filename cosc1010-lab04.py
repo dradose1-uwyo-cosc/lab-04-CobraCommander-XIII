@@ -5,6 +5,7 @@
 # Lab Section: 15
 # Sources, people worked with, help given to: 
 # Received guidance from Analise
+# Provided guidance to Brady
 
 
 
