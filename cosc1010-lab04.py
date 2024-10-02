@@ -98,20 +98,34 @@ min_temps = [
 # Output the results of both calculations.
 
 max_sum = 0
-for max in max_temps:
-    max_sum = max + max_sum
-print(f"Average high temperature: {max_sum / len(max_temps)} degrees")
-
 min_sum = 0
-for min in min_temps:
-    min_sum = min + min_sum
-print(f"Average low temperature: {min_sum / len(min_temps)} degrees")
+for temp in range(len(max_temps)):
+    max_sum = max_sum + max_temps[temp]
+    min_sum = min_sum + min_temps[temp]
+print(f"Average high temperature: {max_sum / len(max_temps)} degrees\nAverage low temperature: {min_sum / len(min_temps)} degrees")
+
+#I initially used the following solution before receiving assistance, but this uses two loops instead of one:
+
+#max_sum = 0
+#for max in max_temps:
+    #max_sum = max + max_sum
+#print(f"Average high temperature: {max_sum / len(max_temps)} degrees")
+
+#min_sum = 0
+#for min in min_temps:
+    #min_sum = min + min_sum
+#print(f"Average low temperature: {min_sum / len(min_temps)} degrees")
 
 # For the next part, determine the highest and lowest recorded temperatures.
 # HINT: You can find this information without using any logic or looping.
 
-max_temps.sort()
-print(f"Highest recorded temperature: {max_temps[-1]} degrees")
+print(f"Highest recorded temperature: {max(max_temps)} degrees")
+print(f"Lowest recorded temperature: {min(min_temps)} degrees")
 
-min_temps.sort()
-print(f"Lowest recorded temperature: {min_temps[0]} degrees")
+#Before receiving assistance with the simpler solution using the max and min functions, this was my solution:
+
+#max_temps.sort()
+#print(f"Highest recorded temperature: {max_temps[-1]} degrees")
+
+#min_temps.sort()
+#print(f"Lowest recorded temperature: {min_temps[0]} degrees")
