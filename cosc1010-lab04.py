@@ -115,4 +115,3 @@ print(f"Highest recorded temperature: {max_temps[-1]} degrees")
 
 min_temps.sort()
 print(f"Lowest recorded temperature: {min_temps[0]} degrees")
-
