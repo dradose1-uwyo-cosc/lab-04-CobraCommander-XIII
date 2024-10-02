@@ -4,7 +4,7 @@
 # Lab 04
 # Lab Section: 15
 # Sources, people worked with, help given to: 
-# 
+# Received guidance from Analise
 
 
 
