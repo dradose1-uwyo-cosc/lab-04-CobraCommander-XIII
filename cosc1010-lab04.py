@@ -5,8 +5,6 @@
 # Lab Section: 15
 # Sources, people worked with, help given to: 
 # 
-# 
-# 
 
 
 
