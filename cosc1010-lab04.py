@@ -99,9 +99,9 @@ min_temps = [
 
 max_sum = 0
 min_sum = 0
-for temp in range(len(max_temps)):
-    max_sum = max_sum + max_temps[temp]
-    min_sum = min_sum + min_temps[temp]
+for index in range(len(max_temps)):
+    max_sum = max_sum + max_temps[index]
+    min_sum = min_sum + min_temps[index]
 print(f"Average high temperature: {max_sum / len(max_temps)} degrees\nAverage low temperature: {min_sum / len(min_temps)} degrees")
 
 #I initially used the following solution before receiving assistance, but this uses two loops instead of one:
